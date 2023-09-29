@@ -14,4 +14,6 @@ if [ -d /local ]; then
 	OPTIONS=$OPTIONS" -B /local"
 fi
 
+OPTIONS=$OPTIONS" -B /run/user/"$UID
+
 singularity exec $OPTIONS $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
