@@ -16,9 +16,9 @@ Copy the
 * `SIF` file
 * and the `asciigenome` script
 
-to `/opt/packages/asciigenome/1.16.0`.
+to `/opt/packages/asciigenome/1.18.0`.
 
-Copy the file `modulefile.lua` to `/opt/modulefiles/asciigenome` as `1.16.0`.
+Copy the file `modulefile.lua` to `/opt/modulefiles/asciigenome` as `1.18.0`.
 
 ## Building the image using the recipe
 
@@ -44,7 +44,7 @@ bash ./test.sh
 ```
 
 ---
-Copyright © 2020-2021 Pittsburgh Supercomputing Center. All Rights Reserved.
+Copyright © 2020-2023 Pittsburgh Supercomputing Center. All Rights Reserved.
 
 The [Biomedical Applications Group](https://www.psc.edu/biomedical-applications/) at the [Pittsburgh Supercomputing Center](http://www.psc.edu) in the [Mellon College of Science](https://www.cmu.edu/mcs/) at [Carnegie Mellon University](http://www.cmu.edu).
 
